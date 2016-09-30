@@ -44,6 +44,7 @@
 			children = (
 				ED27D2B61D9E3EA400129B02 /* Hold The Door */,
 				ED27D2B51D9E3EA400129B02 /* Products */,
+				ED27D2CE1D9E3ED300129B02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +80,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ED27D2CE1D9E3ED300129B02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,6 +120,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = EDXP6Y48QS;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
